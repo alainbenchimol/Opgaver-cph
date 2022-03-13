@@ -23,7 +23,6 @@ BodyStyle: "+bodyStyle
 - 1.l In the main method, create yet another car and assign the same driver to this car.
 - 1.m repeat the step 1.k for the new car created in 1.l.
  */
-
 package task1Torsdagsopgave6;
 
 public class Main {
@@ -31,13 +30,16 @@ public class Main {
     public static void main(String[] args) {
         Driver newDriver=new Driver("Alain", 48);
         Car newCar=new Car("Opel","Grandland X",2020,"SUV");
-        newCar.setDriver("Jacob");
+        //newCar.setDriver("Jacob");
         System.out.println(newCar);
         System.out.println(newDriver);
 
-        Car newCar1=new Car("Opel","Grandland X",2020,"SUV");
-        newCar1.setDriver("Jacob");
+
+        Car newCar1=new Car("Opel","Corsa",2015,"Mini");
+        //newCar1.setDriver("Jacob");
         System.out.println(newCar1);
         System.out.println(newDriver);
+
+
     }
 }

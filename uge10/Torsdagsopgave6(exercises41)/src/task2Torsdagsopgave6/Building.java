@@ -21,7 +21,12 @@ public class Building {
     private int getNumberOfFloors(){
         return this.numberOfFloors;
     }
+
     private boolean getIsOfficeBuilding(){
         return this.isOfficeBuilding;
+    }
+    @Override
+    public String toString(){
+        return "Rooms: "+rooms+". Number of bathrooms: "+numberOfBathrooms+ ". Number of floors: "+ numberOfFloors + ". Is office building: "+isOfficeBuilding;
     }
 }

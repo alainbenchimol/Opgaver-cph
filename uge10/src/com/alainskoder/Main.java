@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class Main {
     static Scanner scan;
-    private static String[] text;
+    private static String[] text;//enkelte ord i teksten
 
     public static void main(String[] args) throws FileNotFoundException {
         File file = new File("src/com/alainskoder/data.txt");
@@ -18,17 +18,17 @@ public class Main {
         {
             inputFromFile += scan.nextLine();// adds each line to the inputFromFile string.
         }
-        text = inputFromFile.split(" ");//Creates and array of strings, where each element is a single word from the file.
+        text = inputFromFile.split(" |\\ ");//Creates and array of strings, where each element is a single word from the file.
 
         System.out.println(text.length);
         //printWordsStartingWith("Ø");
         //printWordsOfLength(3);
 
         //test dine metoder ved at kalde dem her:
-        //printLongestWord();
+        printLongestWord();
         //printFirstHalfOfEachWord();
-        String f = new String("src/com/alainskoder/data.txt");
-        System.out.println("Max occurring character is: "+printMostFrequentLetter(f));
+        //String f = new String("src/com/alainskoder/data.txt");
+        //System.out.println("Max occurring character is: "+printMostFrequentLetter(f));
     }
 
     private static void printWordsOfLength(int l) {
@@ -54,6 +54,7 @@ public class Main {
         }
     }
 
+
     //skriv dine metoder herunder:
     /*
 Task 1:
@@ -66,12 +67,20 @@ Have a String variable called "longestWord", that has its value overwritten in c
 printWordsWithLessThanTwoVocals();
  */
     private static String printLongestWord() throws FileNotFoundException {
+        /*String longest_temp = "";
+        for (String s : text) {
+            if (s.length() > longest_temp.length()) {
+                longest_temp = s;
+            }
+        }
+        System.out.println(longest_temp);
+        return longest_temp;*/
+
         File file = new File("src/com/alainskoder/data.txt");
         scan = new Scanner(file);
         String longestWord = "";
         String current;
-
-        while (scan.hasNext()) {
+        while (scan.hasNext()){
             current = scan.next();
             if (current.length() > longestWord.length()) {
                 longestWord = current;
@@ -99,7 +108,7 @@ printWordsWithLessThanTwoVocals();
                 System.out.println(halfWord);
             }
             return halfWord;
-            }
+    }
     /*
     Task 3:
 Create a method called printMostFrequentLetter() that prints the most frequent found letter in the text variable.

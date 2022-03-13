@@ -24,5 +24,8 @@ public class Room {
     public int getNumberOfWindows(){
         return this.numberOfWindows;
     }
-
+    @Override
+    public String toString(){
+        return "Walls: "+walls+". Number of doors: "+numberOfDoors+ ". Number of lamps: "+ numberOfLamps + ". Number of windows: "+numberOfWindows;
+    }
 }
