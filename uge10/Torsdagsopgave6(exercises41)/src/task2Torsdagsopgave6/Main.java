@@ -32,33 +32,29 @@ building".
 package task2Torsdagsopgave6;
 import java.util.ArrayList;
 public class Main {
-    static ArrayList<Room> rooms =new ArrayList<>();
-    static ArrayList<Building> buildings =new ArrayList<>();
+    static ArrayList<Room> rooms = new ArrayList<>();
+    static ArrayList<Building> buildings = new ArrayList<>();
 
     public static void main(String[] args) {
-        Room room1=new Room(4,1,1,1);//2g
-        Room room2=new Room(5,2,2,2);
-        Room room3=new Room(6,3,3,3);
-        Main.rooms.add(room1);//2h
-        Main.rooms.add(room2);
-        Main.rooms.add(room3);
+        Room room1 = new Room(4, 1, 1, 1);//2g
+        Room room2 = new Room(5, 2, 2, 2);
+        Room room3 = new Room(6, 3, 3, 3);
+        rooms.add(room1);//2h
+        rooms.add(room2);
+        rooms.add(room3);
 
-        Building building=new Building(5,2,2,false);
+        Building building = new Building(5, 2, 2, false);
         Main.buildings.add(building);
 
-        System.out.println("Total numbers of lamps: "+(room1.getNumberOfLamps()+room2.getNumberOfLamps()+room3.getNumberOfLamps()));
-        System.out.println(rooms);
+        System.out.println("Total numbers of lamps: " + (room1.getNumberOfLamps() + room2.getNumberOfLamps() + room3.getNumberOfLamps()));
+        //System.out.println(rooms);
         System.out.println(building);
-        printIsAnOddBuilding(2,3);
+        Building.printIsAnOddBuilding(2,3);
     }
-    private static void printIsAnOddBuilding(int floos, int rooms) {
-                  if(floos>rooms){
-               System.out.println("This is an odd building.");
-           } else{
-                      System.out.println("Is a normal building.");
-                  }
-       }
+
+
 }
+
 
 
 
