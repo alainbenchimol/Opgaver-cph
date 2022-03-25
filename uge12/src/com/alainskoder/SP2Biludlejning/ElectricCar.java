@@ -42,7 +42,7 @@ public class ElectricCar extends ACar{
     // returns the power consumption in watt hours per driven kilometre.
     public double getWhPrKm(){
         whPrKm=batteryCapacityKWh*1000/maxRangeKm;
-        return whPrKm;//Returnerer ikke værdien??
+        return whPrKm;
 
     }
     @Override
@@ -68,6 +68,6 @@ public class ElectricCar extends ACar{
     }
     @Override
     public String toString(){
-        return super.toString()+", Battery Capacity KWh: "+getBatteryCapacityKWh()+", Max Range km: "+getMaxRangeKm();
+        return super.toString()+", Battery Capacity KWh: "+getBatteryCapacityKWh()+", Max Range km: "+getMaxRangeKm()+", Wh/km: "+getWhPrKm();
     }
 }
