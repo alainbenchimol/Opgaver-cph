@@ -6,8 +6,8 @@ b. int kmPrLitre(); // should return how many kilometres the car can drive on 1 
 Lav en attribut til at gemme kilometer per liter og initialisér den i konstruktøren.
  */
 public abstract class AFuelCar extends ACar{
-    private int kmPrLitre;
 
+    private int kmPrLitre;
 
     public AFuelCar(String registrationNumber,
                     String carMake,
@@ -18,13 +18,12 @@ public abstract class AFuelCar extends ACar{
         this.kmPrLitre = kmPrLitre;
     }
 
-    public int getKmPrLitre()
-    {
+    public int getKmPrLitre(){
         return kmPrLitre;
     }
 
     // should return “Gasoline” or “Diesel"
-    public abstract String getFuelType();
+    public abstract String getFuelType();//??
 
     @Override
     public String toString(){

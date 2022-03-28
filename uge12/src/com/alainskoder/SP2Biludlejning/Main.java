@@ -3,18 +3,19 @@ package com.alainskoder.SP2Biludlejning;
 public class Main {
 
     public static void main(String[] args) {
+
         FleetOfCars myFleet=new FleetOfCars();
 
         Car car1=new DieselCar("OX42420","Opel","Kadet",5,15,false);
         myFleet.addCar(car1);
 
-        Car car2=new DieselCar("OX42421","Opel","Kadet",5,9,true);
+        Car car2=new DieselCar("OX42421","Opel","Kadet",5,21,true);
         myFleet.addCar(car2);
 
-        Car car3=new ElectricCar("OX42422","Opel","Corsa-e",5,50,350);
+        Car car3=new ElectricCar("OX42422","Opel","Corsa-e",5,50,330);
         myFleet.addCar(car3);
 
-        Car car5=new ElectricCar("OY42423","Renault","Zoe",5,20,100);
+        Car car5=new ElectricCar("OY42423","Renault","Zoe",5,52,343);
         myFleet.addCar(car5);
 
         Car car4=new GasolinCar("OY42424","BMW","530i",5,9);

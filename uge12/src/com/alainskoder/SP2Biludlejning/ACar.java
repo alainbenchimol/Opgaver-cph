@@ -8,9 +8,9 @@ Overvej hvilke attributter det giver mening at lave final.
 public abstract class ACar implements Car {
 
     private String registrationNumber;
-    private String carMake;
-    private String carModel;
-    private int numberOfDoors;
+    private final String carMake;
+    private final String carModel;
+    private final int numberOfDoors;
 
     public ACar(String registrationNumber, String carMake, String carModel, int numberOfDoors){
         this.registrationNumber=registrationNumber;
@@ -34,6 +34,7 @@ public abstract class ACar implements Car {
     public int getNumberOfDoors() {
         return this.numberOfDoors;
     }
+
     @Override
     public String toString(){
         return " Make: "+carMake+", Model: "+carModel+", Doors: "+numberOfDoors+", Registration No: "

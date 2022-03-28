@@ -25,7 +25,7 @@ er prisen 10470 kr.
      */
     public int getRegistrationFee() {
         int kmpl = getKmPrLitre();
-        if (20 <= kmpl && 50 > kmpl) {
+        if (20 <= kmpl) {
             return 330;
         }
         if (15 <= kmpl && 20 > kmpl) {

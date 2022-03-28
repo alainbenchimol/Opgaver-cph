@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebd1df15-2eea-4614-a537-ed5228529d9a" name="Changes" comment="" />
+    <list default="true" id="ebd1df15-2eea-4614-a537-ed5228529d9a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/uge12/com/alainskoder/SP2Biludlejning/ACar.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/uge12/com/alainskoder/SP2Biludlejning/ACar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/uge12/com/alainskoder/SP2Biludlejning/AFuelCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/uge12/com/alainskoder/SP2Biludlejning/AFuelCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/uge12/com/alainskoder/SP2Biludlejning/DieselCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/uge12/com/alainskoder/SP2Biludlejning/DieselCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/uge12/com/alainskoder/SP2Biludlejning/ElectricCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/uge12/com/alainskoder/SP2Biludlejning/ElectricCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/uge12/com/alainskoder/SP2Biludlejning/FleetOfCars.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/uge12/com/alainskoder/SP2Biludlejning/FleetOfCars.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/uge12/com/alainskoder/SP2Biludlejning/GasolinCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/uge12/com/alainskoder/SP2Biludlejning/GasolinCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/uge12/com/alainskoder/SP2Biludlejning/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/uge12/com/alainskoder/SP2Biludlejning/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/alainskoder/SP2Biludlejning/ACar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/com/alainskoder/SP2Biludlejning/ACar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/alainskoder/SP2Biludlejning/AFuelCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/com/alainskoder/SP2Biludlejning/AFuelCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/alainskoder/SP2Biludlejning/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/com/alainskoder/SP2Biludlejning/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/alainskoder/SP2Biludlejning/DieselCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/com/alainskoder/SP2Biludlejning/DieselCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/alainskoder/SP2Biludlejning/ElectricCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/com/alainskoder/SP2Biludlejning/ElectricCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/alainskoder/SP2Biludlejning/FleetOfCars.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/com/alainskoder/SP2Biludlejning/FleetOfCars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/alainskoder/SP2Biludlejning/GasolinCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/com/alainskoder/SP2Biludlejning/GasolinCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/alainskoder/SP2Biludlejning/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/com/alainskoder/SP2Biludlejning/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,25 +93,16 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.alainskoder" />
       <module name="uge12" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="uge12" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="uge12" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
